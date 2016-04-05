@@ -1,0 +1,7 @@
+#### DAG FILE FOR fullAnalysis_WJetsToLNu_HT-2500ToInf
+JOB WJetsToLNu_HT-2500ToInf_0 fullAnalysis_WJetsToLNu_HT-2500ToInf_0.jdl
+JOB WJetsToLNu_HT-2500ToInf_1 fullAnalysis_WJetsToLNu_HT-2500ToInf_1.jdl
+JOB WJetsToLNu_HT-2500ToInf_2 fullAnalysis_WJetsToLNu_HT-2500ToInf_2.jdl
+JOB WJetsToLNu_HT-2500ToInf_3 fullAnalysis_WJetsToLNu_HT-2500ToInf_3.jdl
+JOB WJetsToLNu_HT-2500ToInf_4 fullAnalysis_WJetsToLNu_HT-2500ToInf_4.jdl
+JOB WJetsToLNu_HT-2500ToInf_5 fullAnalysis_WJetsToLNu_HT-2500ToInf_5.jdl

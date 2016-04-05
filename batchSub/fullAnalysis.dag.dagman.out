@@ -1,0 +1,351 @@
+04/04/16 23:04:32 Setting maximum file descriptors to 131072.
+04/04/16 23:04:32 ******************************************************
+04/04/16 23:04:32 ** condor_scheduniv_exec.64257.0 (CONDOR_DAGMAN) STARTING UP
+04/04/16 23:04:32 ** /usr/bin/condor_dagman
+04/04/16 23:04:32 ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+04/04/16 23:04:32 ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+04/04/16 23:04:32 ** $CondorVersion: 8.2.8 Aug 03 2015 $
+04/04/16 23:04:32 ** $CondorPlatform: X86_64-CentOS_6.6 $
+04/04/16 23:04:32 ** PID = 3283
+04/04/16 23:04:32 ** Log last touched time unavailable (No such file or directory)
+04/04/16 23:04:32 ******************************************************
+04/04/16 23:04:32 Using config source: /etc/condor/condor_config
+04/04/16 23:04:32 Using local config sources: 
+04/04/16 23:04:32    /etc/condor/config.d/01_uscms_lpc
+04/04/16 23:04:32    /etc/condor/config.d/03_uscms_lpc_schedd
+04/04/16 23:04:32    /etc/condor/config.d/90_condor_test
+04/04/16 23:04:32    /etc/condor/config.d/99_gwms_debug
+04/04/16 23:04:32    /etc/condor/config.d/99_uscms_debug
+04/04/16 23:04:32 config Macros = 90, Sorted = 90, StringBytes = 3225, TablesBytes = 3320
+04/04/16 23:04:32 CLASSAD_CACHING is ENABLED
+04/04/16 23:04:32 Daemon Log is logging: D_ALWAYS D_ERROR
+04/04/16 23:04:32 DaemonCore: command socket at <131.225.189.230:53005>
+04/04/16 23:04:32 DaemonCore: private command socket at <131.225.189.230:53005>
+04/04/16 23:04:32 DAGMAN_USE_STRICT setting: 1
+04/04/16 23:04:32 DAGMAN_VERBOSITY setting: 3
+04/04/16 23:04:32 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+04/04/16 23:04:32 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+04/04/16 23:04:32 DAGMAN_SUBMIT_DELAY setting: 0
+04/04/16 23:04:32 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+04/04/16 23:04:32 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+04/04/16 23:04:32 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+04/04/16 23:04:32 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+04/04/16 23:04:32 DAGMAN_DEFAULT_PRIORITY setting: 0
+04/04/16 23:04:32 DAGMAN_ALWAYS_USE_NODE_LOG setting: True
+04/04/16 23:04:32 DAGMAN_SUPPRESS_NOTIFICATION setting: True
+04/04/16 23:04:32 allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+04/04/16 23:04:32 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+04/04/16 23:04:32 DAGMAN_RETRY_NODE_FIRST setting: False
+04/04/16 23:04:32 DAGMAN_MAX_JOBS_IDLE setting: 0
+04/04/16 23:04:32 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+04/04/16 23:04:32 DAGMAN_MAX_PRE_SCRIPTS setting: 0
+04/04/16 23:04:32 DAGMAN_MAX_POST_SCRIPTS setting: 0
+04/04/16 23:04:32 DAGMAN_ALLOW_LOG_ERROR setting: False
+04/04/16 23:04:32 DAGMAN_MUNGE_NODE_NAMES setting: True
+04/04/16 23:04:32 DAGMAN_PROHIBIT_MULTI_JOBS setting: False
+04/04/16 23:04:32 DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+04/04/16 23:04:32 DAGMAN_ALWAYS_RUN_POST setting: True
+04/04/16 23:04:32 DAGMAN_ABORT_DUPLICATES setting: True
+04/04/16 23:04:32 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+04/04/16 23:04:32 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+04/04/16 23:04:32 DAGMAN_AUTO_RESCUE setting: True
+04/04/16 23:04:32 DAGMAN_MAX_RESCUE_NUM setting: 100
+04/04/16 23:04:32 DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+04/04/16 23:04:32 DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+04/04/16 23:04:32 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+04/04/16 23:04:32 DAGMAN_MAX_JOB_HOLDS setting: 100
+04/04/16 23:04:32 DAGMAN_HOLD_CLAIM_TIME setting: 20
+04/04/16 23:04:32 ALL_DEBUG setting: 
+04/04/16 23:04:32 DAGMAN_DEBUG setting: 
+04/04/16 23:04:32 argv[0] == "condor_scheduniv_exec.64257.0"
+04/04/16 23:04:32 argv[1] == "-Lockfile"
+04/04/16 23:04:32 argv[2] == "fullAnalysis.dag.lock"
+04/04/16 23:04:32 argv[3] == "-AutoRescue"
+04/04/16 23:04:32 argv[4] == "1"
+04/04/16 23:04:32 argv[5] == "-DoRescueFrom"
+04/04/16 23:04:32 argv[6] == "0"
+04/04/16 23:04:32 argv[7] == "-Dag"
+04/04/16 23:04:32 argv[8] == "fullAnalysis.dag"
+04/04/16 23:04:32 argv[9] == "-Suppress_notification"
+04/04/16 23:04:32 argv[10] == "-CsdVersion"
+04/04/16 23:04:32 argv[11] == "$CondorVersion: 8.2.8 Aug 03 2015 $"
+04/04/16 23:04:32 argv[12] == "-Dagman"
+04/04/16 23:04:32 argv[13] == "/usr/bin/condor_dagman"
+04/04/16 23:04:32 Default node log file is: </uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log>
+04/04/16 23:04:32 DAG Lockfile will be written to fullAnalysis.dag.lock
+04/04/16 23:04:32 DAG Input file is fullAnalysis.dag
+04/04/16 23:04:32 Parsing 1 dagfiles
+04/04/16 23:04:32 Parsing fullAnalysis.dag ...
+04/04/16 23:04:32 Dag contains 15 total jobs
+04/04/16 23:04:32 Sleeping for 12 seconds to ensure ProcessId uniqueness
+04/04/16 23:04:44 Bootstrapping...
+04/04/16 23:04:44 Number of pre-completed nodes: 0
+04/04/16 23:04:44 Of 15 nodes total:
+04/04/16 23:04:44  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+04/04/16 23:04:44   ===     ===      ===     ===     ===        ===      ===
+04/04/16 23:04:44     0       0        0       0      15          0        0
+04/04/16 23:04:44 0 job proc(s) currently held
+04/04/16 23:04:44 Registering condor_event_timer...
+04/04/16 23:04:45 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification fullAnalysis_TTJets_TuneCUETP8M1.dag>
+04/04/16 23:04:45 MultiLogFiles: truncating log file /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log
+04/04/16 23:04:45 Submitting Condor Node TTJets_TuneCUETP8M1 job(s)...
+04/04/16 23:04:45 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log
+04/04/16 23:04:45 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:04:45 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:04:45 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'TTJets_TuneCUETP8M1 -a +DAGManJobId' '=' '64257 -a DAGManJobId' '=' '64257 -a submit_event_notes' '=' 'DAG' 'Node:' 'TTJets_TuneCUETP8M1 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_TTJets_TuneCUETP8M1.dag.condor.sub
+04/04/16 23:04:45 From submit: Submitting job(s).
+04/04/16 23:04:45 From submit: 1 job(s) submitted to cluster 64258.
+04/04/16 23:04:45 	assigned Condor ID (64258.0.0)
+04/04/16 23:04:45 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification fullAnalysis_WJetsToLNu_HT-400To600.dag>
+04/04/16 23:04:45 Submitting Condor Node WJetsToLNu_HT-400To600 job(s)...
+04/04/16 23:04:45 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log
+04/04/16 23:04:45 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:04:45 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:04:45 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-400To600 -a +DAGManJobId' '=' '64257 -a DAGManJobId' '=' '64257 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-400To600 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-400To600.dag.condor.sub
+04/04/16 23:04:45 From submit: Submitting job(s).
+04/04/16 23:04:45 From submit: 1 job(s) submitted to cluster 64259.
+04/04/16 23:04:45 	assigned Condor ID (64259.0.0)
+04/04/16 23:04:45 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification fullAnalysis_WJetsToLNu_HT-600To800.dag>
+04/04/16 23:04:46 Submitting Condor Node WJetsToLNu_HT-600To800 job(s)...
+04/04/16 23:04:46 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log
+04/04/16 23:04:46 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:04:46 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:04:46 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-600To800 -a +DAGManJobId' '=' '64257 -a DAGManJobId' '=' '64257 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-600To800 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-600To800.dag.condor.sub
+04/04/16 23:04:46 From submit: Submitting job(s).
+04/04/16 23:04:46 From submit: 1 job(s) submitted to cluster 64260.
+04/04/16 23:04:46 	assigned Condor ID (64260.0.0)
+04/04/16 23:04:46 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification fullAnalysis_WJetsToLNu_HT-800To1200.dag>
+04/04/16 23:04:46 Submitting Condor Node WJetsToLNu_HT-800To1200 job(s)...
+04/04/16 23:04:46 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log
+04/04/16 23:04:46 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:04:46 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:04:46 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200 -a +DAGManJobId' '=' '64257 -a DAGManJobId' '=' '64257 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200.dag.condor.sub
+04/04/16 23:04:46 From submit: Submitting job(s).
+04/04/16 23:04:46 From submit: 1 job(s) submitted to cluster 64261.
+04/04/16 23:04:46 	assigned Condor ID (64261.0.0)
+04/04/16 23:04:46 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification fullAnalysis_WJetsToLNu_HT-1200To2500.dag>
+04/04/16 23:04:46 Submitting Condor Node WJetsToLNu_HT-1200To2500 job(s)...
+04/04/16 23:04:46 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log
+04/04/16 23:04:46 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:04:46 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:04:46 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-1200To2500 -a +DAGManJobId' '=' '64257 -a DAGManJobId' '=' '64257 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-1200To2500 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-1200To2500.dag.condor.sub
+04/04/16 23:04:47 From submit: Submitting job(s).
+04/04/16 23:04:47 From submit: 1 job(s) submitted to cluster 64262.
+04/04/16 23:04:47 	assigned Condor ID (64262.0.0)
+04/04/16 23:04:47 Just submitted 5 jobs this cycle...
+04/04/16 23:04:47 Currently monitoring 1 Condor log file(s)
+04/04/16 23:04:47 Reassigning the id of job TTJets_TuneCUETP8M1 from (64258.0.0) to (64258.0.0)
+04/04/16 23:04:47 Event: ULOG_SUBMIT for Condor Node TTJets_TuneCUETP8M1 (64258.0.0)
+04/04/16 23:04:47 Number of idle job procs: 1
+04/04/16 23:04:47 Event: ULOG_EXECUTE for Condor Node TTJets_TuneCUETP8M1 (64258.0.0)
+04/04/16 23:04:47 Number of idle job procs: 0
+04/04/16 23:04:47 Reassigning the id of job WJetsToLNu_HT-400To600 from (64259.0.0) to (64259.0.0)
+04/04/16 23:04:47 Event: ULOG_SUBMIT for Condor Node WJetsToLNu_HT-400To600 (64259.0.0)
+04/04/16 23:04:47 Number of idle job procs: 1
+04/04/16 23:04:47 Reassigning the id of job WJetsToLNu_HT-600To800 from (64260.0.0) to (64260.0.0)
+04/04/16 23:04:47 Event: ULOG_SUBMIT for Condor Node WJetsToLNu_HT-600To800 (64260.0.0)
+04/04/16 23:04:47 Number of idle job procs: 2
+04/04/16 23:04:47 Reassigning the id of job WJetsToLNu_HT-800To1200 from (64261.0.0) to (64261.0.0)
+04/04/16 23:04:47 Event: ULOG_SUBMIT for Condor Node WJetsToLNu_HT-800To1200 (64261.0.0)
+04/04/16 23:04:47 Number of idle job procs: 3
+04/04/16 23:04:47 Reassigning the id of job WJetsToLNu_HT-1200To2500 from (64262.0.0) to (64262.0.0)
+04/04/16 23:04:47 Event: ULOG_SUBMIT for Condor Node WJetsToLNu_HT-1200To2500 (64262.0.0)
+04/04/16 23:04:47 Number of idle job procs: 4
+04/04/16 23:04:47 Of 15 nodes total:
+04/04/16 23:04:47  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+04/04/16 23:04:47   ===     ===      ===     ===     ===        ===      ===
+04/04/16 23:04:47     0       0        5       0      10          0        0
+04/04/16 23:04:47 0 job proc(s) currently held
+04/04/16 23:04:52 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification fullAnalysis_WJetsToLNu_HT-2500ToInf.dag>
+04/04/16 23:04:52 Submitting Condor Node WJetsToLNu_HT-2500ToInf job(s)...
+04/04/16 23:04:52 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log
+04/04/16 23:04:52 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:04:52 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:04:52 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-2500ToInf -a +DAGManJobId' '=' '64257 -a DAGManJobId' '=' '64257 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-2500ToInf -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-2500ToInf.dag.condor.sub
+04/04/16 23:04:52 From submit: Submitting job(s).
+04/04/16 23:04:52 From submit: 1 job(s) submitted to cluster 64263.
+04/04/16 23:04:52 	assigned Condor ID (64263.0.0)
+04/04/16 23:04:52 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification fullAnalysis_ZJetsToNuNu_HT-400To600.dag>
+04/04/16 23:04:52 Submitting Condor Node ZJetsToNuNu_HT-400To600 job(s)...
+04/04/16 23:04:52 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log
+04/04/16 23:04:52 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:04:52 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:04:52 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'ZJetsToNuNu_HT-400To600 -a +DAGManJobId' '=' '64257 -a DAGManJobId' '=' '64257 -a submit_event_notes' '=' 'DAG' 'Node:' 'ZJetsToNuNu_HT-400To600 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_ZJetsToNuNu_HT-400To600.dag.condor.sub
+04/04/16 23:04:52 From submit: Submitting job(s).
+04/04/16 23:04:52 From submit: 1 job(s) submitted to cluster 64264.
+04/04/16 23:04:52 	assigned Condor ID (64264.0.0)
+04/04/16 23:04:52 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification fullAnalysis_ZJetsToNuNu_HT-600ToInf.dag>
+04/04/16 23:04:52 Submitting Condor Node ZJetsToNuNu_HT-600ToInf job(s)...
+04/04/16 23:04:52 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log
+04/04/16 23:04:52 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:04:52 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:04:52 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'ZJetsToNuNu_HT-600ToInf -a +DAGManJobId' '=' '64257 -a DAGManJobId' '=' '64257 -a submit_event_notes' '=' 'DAG' 'Node:' 'ZJetsToNuNu_HT-600ToInf -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_ZJetsToNuNu_HT-600ToInf.dag.condor.sub
+04/04/16 23:04:53 From submit: Submitting job(s).
+04/04/16 23:04:53 From submit: 1 job(s) submitted to cluster 64265.
+04/04/16 23:04:53 	assigned Condor ID (64265.0.0)
+04/04/16 23:04:53 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification fullAnalysis_QCD_HT300to500.dag>
+04/04/16 23:04:53 Submitting Condor Node QCD_HT300to500 job(s)...
+04/04/16 23:04:53 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log
+04/04/16 23:04:53 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:04:53 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:04:53 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'QCD_HT300to500 -a +DAGManJobId' '=' '64257 -a DAGManJobId' '=' '64257 -a submit_event_notes' '=' 'DAG' 'Node:' 'QCD_HT300to500 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_QCD_HT300to500.dag.condor.sub
+04/04/16 23:04:53 From submit: Submitting job(s).
+04/04/16 23:04:53 From submit: 1 job(s) submitted to cluster 64266.
+04/04/16 23:04:53 	assigned Condor ID (64266.0.0)
+04/04/16 23:04:53 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification fullAnalysis_QCD_HT500to700.dag>
+04/04/16 23:04:53 Submitting Condor Node QCD_HT500to700 job(s)...
+04/04/16 23:04:53 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log
+04/04/16 23:04:53 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:04:53 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:04:53 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'QCD_HT500to700 -a +DAGManJobId' '=' '64257 -a DAGManJobId' '=' '64257 -a submit_event_notes' '=' 'DAG' 'Node:' 'QCD_HT500to700 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_QCD_HT500to700.dag.condor.sub
+04/04/16 23:04:53 From submit: Submitting job(s).
+04/04/16 23:04:53 From submit: 1 job(s) submitted to cluster 64267.
+04/04/16 23:04:53 	assigned Condor ID (64267.0.0)
+04/04/16 23:04:53 Just submitted 5 jobs this cycle...
+04/04/16 23:04:53 Currently monitoring 1 Condor log file(s)
+04/04/16 23:04:53 Event: ULOG_EXECUTE for Condor Node WJetsToLNu_HT-400To600 (64259.0.0)
+04/04/16 23:04:53 Number of idle job procs: 3
+04/04/16 23:04:53 Event: ULOG_EXECUTE for Condor Node WJetsToLNu_HT-600To800 (64260.0.0)
+04/04/16 23:04:53 Number of idle job procs: 2
+04/04/16 23:04:53 Event: ULOG_EXECUTE for Condor Node WJetsToLNu_HT-800To1200 (64261.0.0)
+04/04/16 23:04:53 Number of idle job procs: 1
+04/04/16 23:04:53 Event: ULOG_EXECUTE for Condor Node WJetsToLNu_HT-1200To2500 (64262.0.0)
+04/04/16 23:04:53 Number of idle job procs: 0
+04/04/16 23:04:53 Reassigning the id of job WJetsToLNu_HT-2500ToInf from (64263.0.0) to (64263.0.0)
+04/04/16 23:04:53 Event: ULOG_SUBMIT for Condor Node WJetsToLNu_HT-2500ToInf (64263.0.0)
+04/04/16 23:04:53 Number of idle job procs: 1
+04/04/16 23:04:53 Reassigning the id of job ZJetsToNuNu_HT-400To600 from (64264.0.0) to (64264.0.0)
+04/04/16 23:04:53 Event: ULOG_SUBMIT for Condor Node ZJetsToNuNu_HT-400To600 (64264.0.0)
+04/04/16 23:04:53 Number of idle job procs: 2
+04/04/16 23:04:53 Reassigning the id of job ZJetsToNuNu_HT-600ToInf from (64265.0.0) to (64265.0.0)
+04/04/16 23:04:53 Event: ULOG_SUBMIT for Condor Node ZJetsToNuNu_HT-600ToInf (64265.0.0)
+04/04/16 23:04:53 Number of idle job procs: 3
+04/04/16 23:04:53 Reassigning the id of job QCD_HT300to500 from (64266.0.0) to (64266.0.0)
+04/04/16 23:04:53 Event: ULOG_SUBMIT for Condor Node QCD_HT300to500 (64266.0.0)
+04/04/16 23:04:53 Number of idle job procs: 4
+04/04/16 23:04:53 Reassigning the id of job QCD_HT500to700 from (64267.0.0) to (64267.0.0)
+04/04/16 23:04:53 Event: ULOG_SUBMIT for Condor Node QCD_HT500to700 (64267.0.0)
+04/04/16 23:04:53 Number of idle job procs: 5
+04/04/16 23:04:53 Of 15 nodes total:
+04/04/16 23:04:53  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+04/04/16 23:04:53   ===     ===      ===     ===     ===        ===      ===
+04/04/16 23:04:53     0       0       10       0       5          0        0
+04/04/16 23:04:53 0 job proc(s) currently held
+04/04/16 23:04:58 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification fullAnalysis_QCD_HT700to1000.dag>
+04/04/16 23:04:58 Submitting Condor Node QCD_HT700to1000 job(s)...
+04/04/16 23:04:58 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log
+04/04/16 23:04:58 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:04:58 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:04:58 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'QCD_HT700to1000 -a +DAGManJobId' '=' '64257 -a DAGManJobId' '=' '64257 -a submit_event_notes' '=' 'DAG' 'Node:' 'QCD_HT700to1000 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_QCD_HT700to1000.dag.condor.sub
+04/04/16 23:04:59 From submit: Submitting job(s).
+04/04/16 23:04:59 From submit: 1 job(s) submitted to cluster 64269.
+04/04/16 23:04:59 	assigned Condor ID (64269.0.0)
+04/04/16 23:04:59 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification fullAnalysis_QCD_HT1000to1500.dag>
+04/04/16 23:04:59 Submitting Condor Node QCD_HT1000to1500 job(s)...
+04/04/16 23:04:59 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log
+04/04/16 23:04:59 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:04:59 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:04:59 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'QCD_HT1000to1500 -a +DAGManJobId' '=' '64257 -a DAGManJobId' '=' '64257 -a submit_event_notes' '=' 'DAG' 'Node:' 'QCD_HT1000to1500 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_QCD_HT1000to1500.dag.condor.sub
+04/04/16 23:04:59 From submit: Submitting job(s).
+04/04/16 23:04:59 From submit: 1 job(s) submitted to cluster 64270.
+04/04/16 23:04:59 	assigned Condor ID (64270.0.0)
+04/04/16 23:04:59 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification fullAnalysis_QCD_HT1500to2000.dag>
+04/04/16 23:04:59 Submitting Condor Node QCD_HT1500to2000 job(s)...
+04/04/16 23:04:59 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log
+04/04/16 23:04:59 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:04:59 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:04:59 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'QCD_HT1500to2000 -a +DAGManJobId' '=' '64257 -a DAGManJobId' '=' '64257 -a submit_event_notes' '=' 'DAG' 'Node:' 'QCD_HT1500to2000 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_QCD_HT1500to2000.dag.condor.sub
+04/04/16 23:04:59 From submit: Submitting job(s).
+04/04/16 23:04:59 From submit: 1 job(s) submitted to cluster 64271.
+04/04/16 23:04:59 	assigned Condor ID (64271.0.0)
+04/04/16 23:04:59 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification fullAnalysis_QCD_HT2000toInf.dag>
+04/04/16 23:05:00 Submitting Condor Node QCD_HT2000toInf job(s)...
+04/04/16 23:05:00 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log
+04/04/16 23:05:00 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:05:00 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:05:00 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'QCD_HT2000toInf -a +DAGManJobId' '=' '64257 -a DAGManJobId' '=' '64257 -a submit_event_notes' '=' 'DAG' 'Node:' 'QCD_HT2000toInf -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_QCD_HT2000toInf.dag.condor.sub
+04/04/16 23:05:00 From submit: Submitting job(s).
+04/04/16 23:05:00 From submit: 1 job(s) submitted to cluster 64272.
+04/04/16 23:05:00 	assigned Condor ID (64272.0.0)
+04/04/16 23:05:00 Recursive submit command: <condor_submit_dag -no_submit -update_submit -dagman /usr/bin/condor_dagman -autorescue 1 -suppress_notification fullAnalysis_SMS-T5Wg_mGl-1550_mNLSP-0to1500.dag>
+04/04/16 23:05:00 Submitting Condor Node SMS-T5Wg_mGl-1550_mNLSP-0to1500 job(s)...
+04/04/16 23:05:00 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log
+04/04/16 23:05:00 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:05:00 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:05:00 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'SMS-T5Wg_mGl-1550_mNLSP-0to1500 -a +DAGManJobId' '=' '64257 -a DAGManJobId' '=' '64257 -a submit_event_notes' '=' 'DAG' 'Node:' 'SMS-T5Wg_mGl-1550_mNLSP-0to1500 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_SMS-T5Wg_mGl-1550_mNLSP-0to1500.dag.condor.sub
+04/04/16 23:05:00 From submit: Submitting job(s).
+04/04/16 23:05:00 From submit: 1 job(s) submitted to cluster 64273.
+04/04/16 23:05:00 	assigned Condor ID (64273.0.0)
+04/04/16 23:05:00 Just submitted 5 jobs this cycle...
+04/04/16 23:05:00 Currently monitoring 1 Condor log file(s)
+04/04/16 23:05:00 Event: ULOG_EXECUTE for Condor Node ZJetsToNuNu_HT-400To600 (64264.0.0)
+04/04/16 23:05:00 Number of idle job procs: 4
+04/04/16 23:05:00 Event: ULOG_EXECUTE for Condor Node ZJetsToNuNu_HT-600ToInf (64265.0.0)
+04/04/16 23:05:00 Number of idle job procs: 3
+04/04/16 23:05:00 Event: ULOG_EXECUTE for Condor Node QCD_HT300to500 (64266.0.0)
+04/04/16 23:05:00 Number of idle job procs: 2
+04/04/16 23:05:00 Event: ULOG_EXECUTE for Condor Node QCD_HT500to700 (64267.0.0)
+04/04/16 23:05:00 Number of idle job procs: 1
+04/04/16 23:05:00 Event: ULOG_EXECUTE for Condor Node WJetsToLNu_HT-2500ToInf (64263.0.0)
+04/04/16 23:05:00 Number of idle job procs: 0
+04/04/16 23:05:00 Reassigning the id of job QCD_HT700to1000 from (64269.0.0) to (64269.0.0)
+04/04/16 23:05:00 Event: ULOG_SUBMIT for Condor Node QCD_HT700to1000 (64269.0.0)
+04/04/16 23:05:00 Number of idle job procs: 1
+04/04/16 23:05:00 Reassigning the id of job QCD_HT1000to1500 from (64270.0.0) to (64270.0.0)
+04/04/16 23:05:00 Event: ULOG_SUBMIT for Condor Node QCD_HT1000to1500 (64270.0.0)
+04/04/16 23:05:00 Number of idle job procs: 2
+04/04/16 23:05:00 Reassigning the id of job QCD_HT1500to2000 from (64271.0.0) to (64271.0.0)
+04/04/16 23:05:00 Event: ULOG_SUBMIT for Condor Node QCD_HT1500to2000 (64271.0.0)
+04/04/16 23:05:00 Number of idle job procs: 3
+04/04/16 23:05:00 Reassigning the id of job QCD_HT2000toInf from (64272.0.0) to (64272.0.0)
+04/04/16 23:05:00 Event: ULOG_SUBMIT for Condor Node QCD_HT2000toInf (64272.0.0)
+04/04/16 23:05:00 Number of idle job procs: 4
+04/04/16 23:05:00 Reassigning the id of job SMS-T5Wg_mGl-1550_mNLSP-0to1500 from (64273.0.0) to (64273.0.0)
+04/04/16 23:05:00 Event: ULOG_SUBMIT for Condor Node SMS-T5Wg_mGl-1550_mNLSP-0to1500 (64273.0.0)
+04/04/16 23:05:00 Number of idle job procs: 5
+04/04/16 23:05:00 Of 15 nodes total:
+04/04/16 23:05:00  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+04/04/16 23:05:00   ===     ===      ===     ===     ===        ===      ===
+04/04/16 23:05:00     0       0       15       0       0          0        0
+04/04/16 23:05:00 0 job proc(s) currently held
+04/04/16 23:05:05 Currently monitoring 1 Condor log file(s)
+04/04/16 23:05:05 Event: ULOG_EXECUTE for Condor Node QCD_HT1500to2000 (64271.0.0)
+04/04/16 23:05:05 Number of idle job procs: 4
+04/04/16 23:05:05 Event: ULOG_EXECUTE for Condor Node QCD_HT2000toInf (64272.0.0)
+04/04/16 23:05:05 Number of idle job procs: 3
+04/04/16 23:05:05 Event: ULOG_EXECUTE for Condor Node SMS-T5Wg_mGl-1550_mNLSP-0to1500 (64273.0.0)
+04/04/16 23:05:05 Number of idle job procs: 2
+04/04/16 23:05:05 Event: ULOG_EXECUTE for Condor Node QCD_HT700to1000 (64269.0.0)
+04/04/16 23:05:05 Number of idle job procs: 1
+04/04/16 23:05:05 Event: ULOG_EXECUTE for Condor Node QCD_HT1000to1500 (64270.0.0)
+04/04/16 23:05:05 Number of idle job procs: 0
+04/04/16 23:05:20 Currently monitoring 1 Condor log file(s)
+04/04/16 23:05:20 Event: ULOG_JOB_TERMINATED for Condor Node SMS-T5Wg_mGl-1550_mNLSP-0to1500 (64273.0.0)
+04/04/16 23:05:20 Number of idle job procs: 0
+04/04/16 23:05:20 Node SMS-T5Wg_mGl-1550_mNLSP-0to1500 job proc (64273.0.0) completed successfully.
+04/04/16 23:05:20 Node SMS-T5Wg_mGl-1550_mNLSP-0to1500 job completed
+04/04/16 23:05:20 Of 15 nodes total:
+04/04/16 23:05:20  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+04/04/16 23:05:20   ===     ===      ===     ===     ===        ===      ===
+04/04/16 23:05:20     1       0       14       0       0          0        0
+04/04/16 23:05:20 0 job proc(s) currently held
+04/04/16 23:07:07 Received SIGUSR1
+04/04/16 23:07:07 Aborting DAG...
+04/04/16 23:07:07 Writing Rescue DAG to fullAnalysis.dag.rescue001...
+04/04/16 23:07:07 Removing submitted jobs...
+04/04/16 23:07:07 Removing any/all submitted Condor/Stork jobs...
+04/04/16 23:07:07 Running: /usr/bin/condor_rm -const DAGManJobId' '=?=' '64257
+04/04/16 23:07:07 Note: 0 total job deferrals because of -MaxJobs limit (0)
+04/04/16 23:07:07 Note: 0 total job deferrals because of -MaxIdle limit (0)
+04/04/16 23:07:07 Note: 0 total job deferrals because of node category throttles
+04/04/16 23:07:07 Note: 0 total PRE script deferrals because of -MaxPre limit (0)
+04/04/16 23:07:07 Note: 0 total POST script deferrals because of -MaxPost limit (0)
+04/04/16 23:07:07 Of 15 nodes total:
+04/04/16 23:07:07  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+04/04/16 23:07:07   ===     ===      ===     ===     ===        ===      ===
+04/04/16 23:07:07     1       0       14       0       0          0        0
+04/04/16 23:07:07 0 job proc(s) currently held
+04/04/16 23:07:07 Wrote metrics file fullAnalysis.dag.metrics.
+04/04/16 23:07:07 Metrics not sent because of PEGASUS_METRICS or CONDOR_DEVELOPERS setting.
+04/04/16 23:07:07 Warning: ReadMultipleUserLogs destructor called, but still monitoring 1 log(s)!
+04/04/16 23:07:07 **** condor_scheduniv_exec.64257.0 (condor_DAGMAN) pid 3283 EXITING WITH STATUS 2

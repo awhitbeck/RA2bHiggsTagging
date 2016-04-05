@@ -1,0 +1,10 @@
+# Rescue DAG file, created after running
+#   the fullAnalysis_QCD_HT700to1000.dag DAG file
+# Created 4/5/2016 04:07:07 UTC
+# Rescue DAG version: 2.0.1 (partial)
+#
+# Total number of Nodes: 345
+# Nodes premarked DONE: 0
+# Nodes that failed: 2
+#   QCD_HT700to1000_0,QCD_HT700to1000_100,<ENDLIST>
+

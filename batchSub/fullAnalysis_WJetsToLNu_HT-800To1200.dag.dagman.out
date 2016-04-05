@@ -1,0 +1,315 @@
+04/04/16 23:04:51 Setting maximum file descriptors to 131072.
+04/04/16 23:04:51 ******************************************************
+04/04/16 23:04:51 ** condor_scheduniv_exec.64261.0 (CONDOR_DAGMAN) STARTING UP
+04/04/16 23:04:51 ** /usr/bin/condor_dagman
+04/04/16 23:04:51 ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+04/04/16 23:04:51 ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+04/04/16 23:04:51 ** $CondorVersion: 8.2.8 Aug 03 2015 $
+04/04/16 23:04:51 ** $CondorPlatform: X86_64-CentOS_6.6 $
+04/04/16 23:04:51 ** PID = 6344
+04/04/16 23:04:51 ** Log last touched time unavailable (No such file or directory)
+04/04/16 23:04:51 ******************************************************
+04/04/16 23:04:51 Using config source: /etc/condor/condor_config
+04/04/16 23:04:51 Using local config sources: 
+04/04/16 23:04:51    /etc/condor/config.d/01_uscms_lpc
+04/04/16 23:04:51    /etc/condor/config.d/03_uscms_lpc_schedd
+04/04/16 23:04:51    /etc/condor/config.d/90_condor_test
+04/04/16 23:04:51    /etc/condor/config.d/99_gwms_debug
+04/04/16 23:04:51    /etc/condor/config.d/99_uscms_debug
+04/04/16 23:04:51 config Macros = 90, Sorted = 90, StringBytes = 3249, TablesBytes = 3320
+04/04/16 23:04:51 CLASSAD_CACHING is ENABLED
+04/04/16 23:04:51 Daemon Log is logging: D_ALWAYS D_ERROR
+04/04/16 23:04:51 DaemonCore: command socket at <131.225.189.230:53628>
+04/04/16 23:04:51 DaemonCore: private command socket at <131.225.189.230:53628>
+04/04/16 23:04:51 DAGMAN_USE_STRICT setting: 1
+04/04/16 23:04:51 DAGMAN_VERBOSITY setting: 3
+04/04/16 23:04:51 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+04/04/16 23:04:51 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+04/04/16 23:04:51 DAGMAN_SUBMIT_DELAY setting: 0
+04/04/16 23:04:51 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+04/04/16 23:04:51 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+04/04/16 23:04:51 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+04/04/16 23:04:51 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+04/04/16 23:04:51 DAGMAN_DEFAULT_PRIORITY setting: 0
+04/04/16 23:04:51 DAGMAN_ALWAYS_USE_NODE_LOG setting: True
+04/04/16 23:04:51 DAGMAN_SUPPRESS_NOTIFICATION setting: True
+04/04/16 23:04:51 allow_events (DAGMAN_ALLOW_EVENTS) setting: 114
+04/04/16 23:04:51 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+04/04/16 23:04:51 DAGMAN_RETRY_NODE_FIRST setting: False
+04/04/16 23:04:51 DAGMAN_MAX_JOBS_IDLE setting: 0
+04/04/16 23:04:51 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+04/04/16 23:04:51 DAGMAN_MAX_PRE_SCRIPTS setting: 0
+04/04/16 23:04:51 DAGMAN_MAX_POST_SCRIPTS setting: 0
+04/04/16 23:04:51 DAGMAN_ALLOW_LOG_ERROR setting: False
+04/04/16 23:04:51 DAGMAN_MUNGE_NODE_NAMES setting: True
+04/04/16 23:04:51 DAGMAN_PROHIBIT_MULTI_JOBS setting: False
+04/04/16 23:04:51 DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+04/04/16 23:04:51 DAGMAN_ALWAYS_RUN_POST setting: True
+04/04/16 23:04:51 DAGMAN_ABORT_DUPLICATES setting: True
+04/04/16 23:04:51 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+04/04/16 23:04:51 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+04/04/16 23:04:51 DAGMAN_AUTO_RESCUE setting: True
+04/04/16 23:04:51 DAGMAN_MAX_RESCUE_NUM setting: 100
+04/04/16 23:04:51 DAGMAN_WRITE_PARTIAL_RESCUE setting: True
+04/04/16 23:04:51 DAGMAN_DEFAULT_NODE_LOG setting: @(DAG_DIR)/@(DAG_FILE).nodes.log
+04/04/16 23:04:51 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+04/04/16 23:04:51 DAGMAN_MAX_JOB_HOLDS setting: 100
+04/04/16 23:04:51 DAGMAN_HOLD_CLAIM_TIME setting: 20
+04/04/16 23:04:51 ALL_DEBUG setting: 
+04/04/16 23:04:51 DAGMAN_DEBUG setting: 
+04/04/16 23:04:51 argv[0] == "condor_scheduniv_exec.64261.0"
+04/04/16 23:04:51 argv[1] == "-Lockfile"
+04/04/16 23:04:51 argv[2] == "fullAnalysis_WJetsToLNu_HT-800To1200.dag.lock"
+04/04/16 23:04:51 argv[3] == "-AutoRescue"
+04/04/16 23:04:51 argv[4] == "1"
+04/04/16 23:04:51 argv[5] == "-DoRescueFrom"
+04/04/16 23:04:51 argv[6] == "0"
+04/04/16 23:04:51 argv[7] == "-Dag"
+04/04/16 23:04:51 argv[8] == "fullAnalysis_WJetsToLNu_HT-800To1200.dag"
+04/04/16 23:04:51 argv[9] == "-Suppress_notification"
+04/04/16 23:04:51 argv[10] == "-CsdVersion"
+04/04/16 23:04:51 argv[11] == "$CondorVersion: 8.2.8 Aug 03 2015 $"
+04/04/16 23:04:51 argv[12] == "-Dagman"
+04/04/16 23:04:51 argv[13] == "/usr/bin/condor_dagman"
+04/04/16 23:04:51 argv[14] == "-Update_submit"
+04/04/16 23:04:51 Default node log file is: </uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log>
+04/04/16 23:04:51 DAG Lockfile will be written to fullAnalysis_WJetsToLNu_HT-800To1200.dag.lock
+04/04/16 23:04:51 DAG Input file is fullAnalysis_WJetsToLNu_HT-800To1200.dag
+04/04/16 23:04:51 Parsing 1 dagfiles
+04/04/16 23:04:51 Parsing fullAnalysis_WJetsToLNu_HT-800To1200.dag ...
+04/04/16 23:04:51 Dag contains 39 total jobs
+04/04/16 23:04:51 Sleeping for 12 seconds to ensure ProcessId uniqueness
+04/04/16 23:05:03 Bootstrapping...
+04/04/16 23:05:03 Number of pre-completed nodes: 0
+04/04/16 23:05:03 Of 39 nodes total:
+04/04/16 23:05:03  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+04/04/16 23:05:03   ===     ===      ===     ===     ===        ===      ===
+04/04/16 23:05:03     0       0        0       0      39          0        0
+04/04/16 23:05:03 0 job proc(s) currently held
+04/04/16 23:05:03 Registering condor_event_timer...
+04/04/16 23:05:04 MultiLogFiles: truncating log file /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:05:04 Submitting Condor Node WJetsToLNu_HT-800To1200_0 job(s)...
+04/04/16 23:05:04 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:05:04 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:05:04 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:05:04 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_0 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_0 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_0.jdl
+04/04/16 23:05:04 From submit: Submitting job(s)
+04/04/16 23:05:04 From submit: ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:05:04 failed while reading from pipe.
+04/04/16 23:05:04 Read so far: Submitting job(s)ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:05:04 ERROR: submit attempt failed
+04/04/16 23:05:04 submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_0 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_0 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_0.jdl
+04/04/16 23:05:04 Job submit try 1/6 failed, will try again in >= 1 second.
+04/04/16 23:05:04 Of 39 nodes total:
+04/04/16 23:05:04  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+04/04/16 23:05:04   ===     ===      ===     ===     ===        ===      ===
+04/04/16 23:05:04     0       0        0       0      39          0        0
+04/04/16 23:05:04 0 job proc(s) currently held
+04/04/16 23:05:09 Submitting Condor Node WJetsToLNu_HT-800To1200_0 job(s)...
+04/04/16 23:05:09 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:05:09 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:05:09 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:05:09 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_0 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_0 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_0.jdl
+04/04/16 23:05:09 From submit: Submitting job(s)
+04/04/16 23:05:09 From submit: ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:05:09 failed while reading from pipe.
+04/04/16 23:05:09 Read so far: Submitting job(s)ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:05:09 ERROR: submit attempt failed
+04/04/16 23:05:09 submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_0 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_0 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_0.jdl
+04/04/16 23:05:09 Job submit try 2/6 failed, will try again in >= 2 seconds.
+04/04/16 23:05:14 Submitting Condor Node WJetsToLNu_HT-800To1200_0 job(s)...
+04/04/16 23:05:14 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:05:14 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:05:14 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:05:14 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_0 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_0 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_0.jdl
+04/04/16 23:05:14 From submit: Submitting job(s)
+04/04/16 23:05:14 From submit: ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:05:14 failed while reading from pipe.
+04/04/16 23:05:14 Read so far: Submitting job(s)ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:05:14 ERROR: submit attempt failed
+04/04/16 23:05:14 submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_0 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_0 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_0.jdl
+04/04/16 23:05:14 Job submit try 3/6 failed, will try again in >= 4 seconds.
+04/04/16 23:05:19 Submitting Condor Node WJetsToLNu_HT-800To1200_0 job(s)...
+04/04/16 23:05:19 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:05:19 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:05:19 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:05:19 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_0 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_0 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_0.jdl
+04/04/16 23:05:19 From submit: Submitting job(s)
+04/04/16 23:05:19 From submit: ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:05:19 failed while reading from pipe.
+04/04/16 23:05:19 Read so far: Submitting job(s)ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:05:19 ERROR: submit attempt failed
+04/04/16 23:05:19 submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_0 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_0 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_0.jdl
+04/04/16 23:05:19 Job submit try 4/6 failed, will try again in >= 8 seconds.
+04/04/16 23:05:30 Submitting Condor Node WJetsToLNu_HT-800To1200_0 job(s)...
+04/04/16 23:05:30 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:05:30 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:05:30 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:05:30 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_0 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_0 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_0.jdl
+04/04/16 23:05:30 From submit: Submitting job(s)
+04/04/16 23:05:30 From submit: ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:05:30 failed while reading from pipe.
+04/04/16 23:05:30 Read so far: Submitting job(s)ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:05:30 ERROR: submit attempt failed
+04/04/16 23:05:30 submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_0 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_0 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_0.jdl
+04/04/16 23:05:30 Job submit try 5/6 failed, will try again in >= 16 seconds.
+04/04/16 23:05:47 Submitting Condor Node WJetsToLNu_HT-800To1200_0 job(s)...
+04/04/16 23:05:47 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:05:47 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:05:47 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:05:47 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_0 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_0 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_0.jdl
+04/04/16 23:05:47 From submit: Submitting job(s)
+04/04/16 23:05:47 From submit: ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:05:47 failed while reading from pipe.
+04/04/16 23:05:47 Read so far: Submitting job(s)ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:05:47 ERROR: submit attempt failed
+04/04/16 23:05:47 submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_0 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_0 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '0 -a FAILED_COUNT' '=' '0 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_0.jdl
+04/04/16 23:05:47 Job submit failed after 6 tries.
+04/04/16 23:05:47 Shortcutting node WJetsToLNu_HT-800To1200_0 retries because of submit failure(s)
+04/04/16 23:05:47 Of 39 nodes total:
+04/04/16 23:05:47  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+04/04/16 23:05:47   ===     ===      ===     ===     ===        ===      ===
+04/04/16 23:05:47     0       0        0       0      38          0        1
+04/04/16 23:05:47 0 job proc(s) currently held
+04/04/16 23:05:52 Submitting Condor Node WJetsToLNu_HT-800To1200_10 job(s)...
+04/04/16 23:05:52 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:05:52 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:05:52 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:05:52 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_10 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_10 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '1 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_10.jdl
+04/04/16 23:05:52 From submit: Submitting job(s)
+04/04/16 23:05:52 From submit: ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:05:52 failed while reading from pipe.
+04/04/16 23:05:52 Read so far: Submitting job(s)ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:05:52 ERROR: submit attempt failed
+04/04/16 23:05:52 submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_10 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_10 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '1 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_10.jdl
+04/04/16 23:05:52 Job submit try 1/6 failed, will try again in >= 1 second.
+04/04/16 23:05:57 Submitting Condor Node WJetsToLNu_HT-800To1200_10 job(s)...
+04/04/16 23:05:57 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:05:57 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:05:57 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:05:57 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_10 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_10 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '1 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_10.jdl
+04/04/16 23:05:57 From submit: Submitting job(s)
+04/04/16 23:05:57 From submit: ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:05:57 failed while reading from pipe.
+04/04/16 23:05:57 Read so far: Submitting job(s)ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:05:57 ERROR: submit attempt failed
+04/04/16 23:05:57 submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_10 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_10 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '1 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_10.jdl
+04/04/16 23:05:57 Job submit try 2/6 failed, will try again in >= 2 seconds.
+04/04/16 23:06:02 Submitting Condor Node WJetsToLNu_HT-800To1200_10 job(s)...
+04/04/16 23:06:02 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:06:02 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:06:02 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:06:02 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_10 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_10 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '1 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_10.jdl
+04/04/16 23:06:03 From submit: Submitting job(s)
+04/04/16 23:06:03 From submit: ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:06:03 failed while reading from pipe.
+04/04/16 23:06:03 Read so far: Submitting job(s)ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:06:03 ERROR: submit attempt failed
+04/04/16 23:06:03 submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_10 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_10 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '1 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_10.jdl
+04/04/16 23:06:03 Job submit try 3/6 failed, will try again in >= 4 seconds.
+04/04/16 23:06:08 Submitting Condor Node WJetsToLNu_HT-800To1200_10 job(s)...
+04/04/16 23:06:08 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:06:08 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:06:08 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:06:08 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_10 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_10 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '1 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_10.jdl
+04/04/16 23:06:08 From submit: Submitting job(s)
+04/04/16 23:06:08 From submit: ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:06:08 failed while reading from pipe.
+04/04/16 23:06:08 Read so far: Submitting job(s)ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:06:08 ERROR: submit attempt failed
+04/04/16 23:06:08 submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_10 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_10 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '1 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_10.jdl
+04/04/16 23:06:08 Job submit try 4/6 failed, will try again in >= 8 seconds.
+04/04/16 23:06:19 Submitting Condor Node WJetsToLNu_HT-800To1200_10 job(s)...
+04/04/16 23:06:19 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:06:19 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:06:19 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:06:19 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_10 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_10 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '1 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_10.jdl
+04/04/16 23:06:19 From submit: Submitting job(s)
+04/04/16 23:06:19 From submit: ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:06:19 failed while reading from pipe.
+04/04/16 23:06:19 Read so far: Submitting job(s)ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:06:19 ERROR: submit attempt failed
+04/04/16 23:06:19 submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_10 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_10 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '1 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_10.jdl
+04/04/16 23:06:19 Job submit try 5/6 failed, will try again in >= 16 seconds.
+04/04/16 23:06:36 Submitting Condor Node WJetsToLNu_HT-800To1200_10 job(s)...
+04/04/16 23:06:36 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:06:36 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:06:36 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:06:36 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_10 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_10 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '1 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_10.jdl
+04/04/16 23:06:36 From submit: Submitting job(s)
+04/04/16 23:06:36 From submit: ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:06:36 failed while reading from pipe.
+04/04/16 23:06:36 Read so far: Submitting job(s)ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:06:36 ERROR: submit attempt failed
+04/04/16 23:06:36 submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_10 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_10 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '1 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_10.jdl
+04/04/16 23:06:36 Job submit failed after 6 tries.
+04/04/16 23:06:36 Shortcutting node WJetsToLNu_HT-800To1200_10 retries because of submit failure(s)
+04/04/16 23:06:36 Of 39 nodes total:
+04/04/16 23:06:36  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+04/04/16 23:06:36   ===     ===      ===     ===     ===        ===      ===
+04/04/16 23:06:36     0       0        0       0      37          0        2
+04/04/16 23:06:36 0 job proc(s) currently held
+04/04/16 23:06:41 Submitting Condor Node WJetsToLNu_HT-800To1200_11 job(s)...
+04/04/16 23:06:41 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:06:41 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:06:41 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:06:41 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_11 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_11 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '2 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_11.jdl
+04/04/16 23:06:41 From submit: Submitting job(s)
+04/04/16 23:06:41 From submit: ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:06:41 failed while reading from pipe.
+04/04/16 23:06:41 Read so far: Submitting job(s)ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:06:41 ERROR: submit attempt failed
+04/04/16 23:06:41 submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_11 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_11 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '2 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_11.jdl
+04/04/16 23:06:41 Job submit try 1/6 failed, will try again in >= 1 second.
+04/04/16 23:06:46 Submitting Condor Node WJetsToLNu_HT-800To1200_11 job(s)...
+04/04/16 23:06:46 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:06:46 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:06:46 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:06:46 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_11 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_11 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '2 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_11.jdl
+04/04/16 23:06:46 From submit: Submitting job(s)
+04/04/16 23:06:46 From submit: ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:06:46 failed while reading from pipe.
+04/04/16 23:06:46 Read so far: Submitting job(s)ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:06:46 ERROR: submit attempt failed
+04/04/16 23:06:46 submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_11 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_11 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '2 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_11.jdl
+04/04/16 23:06:46 Job submit try 2/6 failed, will try again in >= 2 seconds.
+04/04/16 23:06:51 Submitting Condor Node WJetsToLNu_HT-800To1200_11 job(s)...
+04/04/16 23:06:51 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:06:51 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:06:51 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:06:51 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_11 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_11 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '2 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_11.jdl
+04/04/16 23:06:51 From submit: Submitting job(s)
+04/04/16 23:06:51 From submit: ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:06:51 failed while reading from pipe.
+04/04/16 23:06:51 Read so far: Submitting job(s)ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:06:51 ERROR: submit attempt failed
+04/04/16 23:06:51 submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_11 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_11 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '2 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_11.jdl
+04/04/16 23:06:51 Job submit try 3/6 failed, will try again in >= 4 seconds.
+04/04/16 23:06:56 Submitting Condor Node WJetsToLNu_HT-800To1200_11 job(s)...
+04/04/16 23:06:56 Adding a DAGMan auxiliary log /uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log
+04/04/16 23:06:56 Masking the events recorded in the DAGMAN auxiliary log
+04/04/16 23:06:56 Mask for auxiliary log is 0,1,2,4,5,7,9,10,11,12,13,16,17,24,27
+04/04/16 23:06:56 submitting: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_11 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_11 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '2 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_11.jdl
+04/04/16 23:06:56 From submit: Submitting job(s)
+04/04/16 23:06:56 From submit: ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:06:56 failed while reading from pipe.
+04/04/16 23:06:56 Read so far: Submitting job(s)ERROR: Can't open "/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/../RA2bHiggsTagging.tar"  with flags 00 (No such file or directory)
+04/04/16 23:06:56 ERROR: submit attempt failed
+04/04/16 23:06:56 submit command was: /usr/bin/condor_submit -a dag_node_name' '=' 'WJetsToLNu_HT-800To1200_11 -a +DAGManJobId' '=' '64261 -a DAGManJobId' '=' '64261 -a submit_event_notes' '=' 'DAG' 'Node:' 'WJetsToLNu_HT-800To1200_11 -a dagman_log' '=' '/uscms_data/d2/awhitbe1/workArea/RA2studies/analysisFrameworkAttempt/CMSSW_7_4_2/src/RA2bHiggsTagging/batchSub/./fullAnalysis_WJetsToLNu_HT-800To1200.dag.nodes.log -a +DAGManNodesMask' '=' '"0,1,2,4,5,7,9,10,11,12,13,16,17,24,27" -a DAG_STATUS' '=' '2 -a FAILED_COUNT' '=' '2 -a +DAGParentNodeNames' '=' '"" -a notification' '=' 'never fullAnalysis_WJetsToLNu_HT-800To1200_11.jdl
+04/04/16 23:06:56 Job submit try 4/6 failed, will try again in >= 8 seconds.
+04/04/16 23:07:07 Received SIGUSR1
+04/04/16 23:07:07 Aborting DAG...
+04/04/16 23:07:07 Writing Rescue DAG to fullAnalysis_WJetsToLNu_HT-800To1200.dag.rescue001...
+04/04/16 23:07:07 Note: 0 total job deferrals because of -MaxJobs limit (0)
+04/04/16 23:07:07 Note: 0 total job deferrals because of -MaxIdle limit (0)
+04/04/16 23:07:07 Note: 0 total job deferrals because of node category throttles
+04/04/16 23:07:07 Note: 0 total PRE script deferrals because of -MaxPre limit (0)
+04/04/16 23:07:07 Note: 0 total POST script deferrals because of -MaxPost limit (0)
+04/04/16 23:07:07 Of 39 nodes total:
+04/04/16 23:07:07  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+04/04/16 23:07:07   ===     ===      ===     ===     ===        ===      ===
+04/04/16 23:07:07     0       0        0       0      37          0        2
+04/04/16 23:07:07 0 job proc(s) currently held
+04/04/16 23:07:07 Wrote metrics file fullAnalysis_WJetsToLNu_HT-800To1200.dag.metrics.
+04/04/16 23:07:07 Metrics not sent because of PEGASUS_METRICS or CONDOR_DEVELOPERS setting.
+04/04/16 23:07:07 **** condor_scheduniv_exec.64261.0 (condor_DAGMAN) pid 6344 EXITING WITH STATUS 2

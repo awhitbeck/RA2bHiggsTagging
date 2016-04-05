@@ -1,0 +1,15 @@
+000 (64271.000.000) 04/04 23:04:59 Job submitted from host: <131.225.189.230:34839>
+    DAG Node: QCD_HT1500to2000
+...
+001 (64271.000.000) 04/04 23:05:02 Job executing on host: <131.225.189.230:34839>
+...
+004 (64271.000.000) 04/04 23:07:07 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+009 (64271.000.000) 04/04 23:07:07 Job was aborted by the user.
+	removed because <OtherJobRemoveRequirements = DAGManJobId =?= 64257> fired when job (64257.0) was removed
+...

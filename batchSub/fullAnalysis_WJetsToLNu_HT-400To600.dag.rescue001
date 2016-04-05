@@ -1,0 +1,10 @@
+# Rescue DAG file, created after running
+#   the fullAnalysis_WJetsToLNu_HT-400To600.dag DAG file
+# Created 4/5/2016 04:07:07 UTC
+# Rescue DAG version: 2.0.1 (partial)
+#
+# Total number of Nodes: 44
+# Nodes premarked DONE: 0
+# Nodes that failed: 2
+#   WJetsToLNu_HT-400To600_0,WJetsToLNu_HT-400To600_10,<ENDLIST>
+

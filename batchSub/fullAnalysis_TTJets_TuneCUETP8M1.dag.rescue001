@@ -1,0 +1,10 @@
+# Rescue DAG file, created after running
+#   the fullAnalysis_TTJets_TuneCUETP8M1.dag DAG file
+# Created 4/5/2016 04:07:07 UTC
+# Rescue DAG version: 2.0.1 (partial)
+#
+# Total number of Nodes: 261
+# Nodes premarked DONE: 0
+# Nodes that failed: 2
+#   TTJets_TuneCUETP8M1_0,TTJets_TuneCUETP8M1_100,<ENDLIST>
+
