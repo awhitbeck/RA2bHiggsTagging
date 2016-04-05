@@ -1,0 +1,15 @@
+*/*condor
+*/*jdl
+*/*stderr
+*/*stdout
+*#
+*/*#
+*/*~
+*~
+*/*exe
+*/*.d
+*/*.so
+*/*.pcm
+*/*.root
+*/*dag*
+*/*png
