@@ -5,6 +5,7 @@
 #include "weightProducer.cc"
 #include "fillHisto.cc"
 #include "fillLeptonTruth.cc"
+#include "fillRA2bHisto.cc"
 
 #include "TString.h"
 #include "TChain.h"
@@ -41,6 +42,7 @@ public :
   histo *DeltaPhi2histo;
   histo *DeltaPhi3histo;
   histo *DeltaPhi4histo;
+  fillRA2bHisto<RA2bNtuple>* ra2bHisto;
   TString sampleTag, regionTag;
 
   signalRegion( RA2bNtuple* ntuple_ , TString sampleTag_ , TString regionTag_ = "SR" , 
@@ -60,6 +62,7 @@ public :
     DeltaPhi2histo = new histo(ntuple,40,0.,3.2,regionTag+"_"+sampleTag,"DeltaPhi2","Weight");
     DeltaPhi3histo = new histo(ntuple,40,0.,3.2,regionTag+"_"+sampleTag,"DeltaPhi3","Weight");
     DeltaPhi4histo = new histo(ntuple,40,0.,3.2,regionTag+"_"+sampleTag,"DeltaPhi4","Weight");
+    ra2bHisto = new fillRA2bHisto<RA2bNtuple>(ntuple,regionTag+"_"+sampleTag,"Weight");
 
     addProcessor(selectBase);
 
@@ -77,6 +80,7 @@ public :
     addProcessor(DeltaPhi2histo);
     addProcessor(DeltaPhi3histo);
     addProcessor(DeltaPhi4histo);
+    addProcessor(ra2bHisto);
 
   };
 
@@ -91,7 +95,8 @@ public :
     delete DeltaPhi2histo;
     delete DeltaPhi3histo;
     delete DeltaPhi4histo;
-    
+    delete ra2bHisto;
+
   };
 
   void analyze(){
@@ -115,7 +120,8 @@ public :
     DeltaPhi2histo->histo->Write();
     DeltaPhi3histo->histo->Write();
     DeltaPhi4histo->histo->Write();
-    
+    ra2bHisto->histo->Write();
+
   };
 
 };

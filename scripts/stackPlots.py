@@ -33,20 +33,21 @@ def plot( var , _file0 ) :
     WJets.SetFillColor(kGreen+1)
     WJets.SetLineColor(1)
     WJets.SetLineWidth(2)
-    GJets = _file0.Get("{0}_GJets".format(var))
-    if not GJets : 
-        print "Couldn't get {0}_GJets".format(var)
-        return
-    GJets.SetFillColor(kMagenta+1)
-    GJets.SetLineColor(1)
-    GJets.SetLineWidth(2)
+
+    #GJets = _file0.Get("{0}_GJets".format(var))
+    #if not GJets : 
+    #    print "Couldn't get {0}_GJets".format(var)
+    #    return
+    #GJets.SetFillColor(kMagenta+1)
+    #GJets.SetLineColor(1)
+    #GJets.SetLineWidth(2)
     
     s = THStack("{0}Stack".format(var),"{0}Stack".format(var))
     WJets.SetMinimum(.1)
     s.Add(WJets)
     s.Add(ZJets)
     s.Add(TT)
-    s.Add(GJets)
+    #s.Add(GJets)
     s.Add(QCD)
     s.SetMinimum(.1)
 
@@ -62,7 +63,7 @@ def plot( var , _file0 ) :
     leg.AddEntry(WJets,"W+jets","f")
     leg.AddEntry(ZJets,"Z+jets","f")
     leg.AddEntry(TT,"top","f")
-    leg.AddEntry(GJets,"#gamma+jets","f")
+    #leg.AddEntry(GJets,"#gamma+jets","f")
     leg.AddEntry(QCD,"QCD","f")
     leg.Draw()
 
